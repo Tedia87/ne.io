@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    letter-spacing: 3px;
+}
+em{
+    color: black;
+    font-style: normal;
+    letter-spacing: 3px;
+    word-spacing: 0;
+    color: red;
+    position: absolute;
+    left: 42px;
+}
+.re{
+    position: absolute;
+    left: 500px;
+    top:20px ;
+    word-spacing: 20px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li{
+    display: inline;
+}
+.de{
+    position: absolute;
+    left:900px;
+    top: 20px;
+}
+select{
+    position: absolute;
+    left: 1200px;
+    top: 25px;
+    font-size: xx-small;
+
+}
